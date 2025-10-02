@@ -1189,7 +1189,7 @@
         var mergedHunk = {
           oldStart: Math.min(mineCurrent.oldStart, theirsCurrent.oldStart),
           oldLines: 0,
-          newStart: Math.min(mineCurrent.newStart + mineOffset, theirsCurrent.oldStart + theirsOffset),
+          newStart: Math.min(mineCurrent.newStart + mineOffset, theirsCurrent.newStart + theirsOffset),
           newLines: 0,
           lines: []
         };
